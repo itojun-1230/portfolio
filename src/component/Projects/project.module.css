@@ -1,0 +1,22 @@
+#TagBox {
+  width: 90%;
+  margin-left: 5%;
+}
+#TagBox p{
+  width: fit-content;
+
+  border-bottom: 2px solid rgb(0, 255, 85);
+  line-height: 12px;
+  user-select: none;
+}
+#TagBox div {
+  margin-left: 5%;
+}
+
+.TagButton {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+
+  font-weight: bold;
+}
