@@ -13,10 +13,84 @@
   margin-left: 5%;
 }
 
-.TagButton {
+#TagButton {
   margin-top: -5px;
   margin-bottom: 10px;
   margin-left: 5px;
 
   font-weight: bold;
+}
+
+.ProjectBox {
+  margin-top: 32px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.ProjectName {
+  font-size: 24px;
+  line-height: 0px;
+}
+
+
+.ProjectTagBox {
+  display: flex;
+  flex-wrap: wrap;
+
+  user-select: none;
+}
+
+.ProjectTag {
+  min-width: 90px;
+  width: fit-content;
+  margin-left: 5px;
+  margin-top: 2.5px;
+
+  border: 1px solid #1976d2;
+  border-radius: 5px;
+}
+.ProjectTag p{
+  color: #1976d2;
+  font-size: 12px;
+  font-weight: bold;
+
+  text-align: center;
+  line-height: 4px;
+}
+
+.ProjectBlock {
+  width: 50%;
+}
+
+.objective {
+  width: fit-content;
+  font-size: 20px;
+  line-height: 16px;
+
+  border-bottom: 2px solid rgb(255, 166, 0);
+}
+
+.ProjectImage {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.ProjectURL {
+  color: rgb(107, 107, 107);
+  text-decoration: underline;
+  
+  user-select: none;
+}
+
+.ProjectLayout {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .ProjectLayout {
+    display: contents;
+  }
+  .ProjectBlock {
+    width: 100%;
+  }
 }

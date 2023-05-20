@@ -12,7 +12,7 @@ export const TagButton = (props: {
 }) => {
   return (
     <Button variant="outlined" 
-      className={styles.TagButton}
+      id={styles.TagButton}
       style={{
         textTransform: "none"
       }}
