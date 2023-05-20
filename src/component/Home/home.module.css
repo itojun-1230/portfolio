@@ -1,7 +1,7 @@
 #Gear {
   position: absolute;
   bottom: 0px;
-  right:  0px;
+  right: 0px;
 
   width: 50%;
   max-width: 70vh;
@@ -10,20 +10,138 @@
   transform: translate(30%, 30%);
 
   animation-name: GearRotation;
-  animation-fill-mode:backwards;
-  animation-duration:6s;
+  animation-fill-mode: forwards;
+  animation-duration: 6s;
 
-  animation-iteration-count:infinite;
-  animation-timing-function:ease-out;
-  animation-direction:normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: normal;
+}
+
+@keyframes GearRotation {
+  0% {
+    transform: translate(30%, 30%) rotate(45deg);
   }
+  50% {
+    transform: translate(30%, 30%)
+  }
+  100% {}
+}
+
+:root {
+  --arrowColor: rgb(158, 158, 158);
+}
+
+#ArrowBox{
+  display: flex;
+  position: relative;
+  width: fit-content;
+  margin-left: calc(100% - 300px);
+
+  transform-origin: 0px 0px;
+  transform: rotate(-20deg);
+}
+
+#Arrow {
+  width: 7.5px;
+  height: 0px;
+
+  border-color: var(--arrowColor);
+  border-style: solid;
+  border-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+
+  animation-name: ArrowLength;
+  animation-fill-mode: forwards;
+  animation-duration: 6s;
+
+  animation-timing-function: ease;
+  animation-direction: normal;
+}
+
+@keyframes ArrowLength {
+  100% {
+    height: 300px
+  }
+}
+
+#ArrowText {
+  display: block;
+  margin-top: 75px;
+  margin-left: 20px;
+
+  width:fit-content;
+  height: fit-content;
+
+  overflow: hidden;
+
+  animation-name: TextBaox;
+  animation-fill-mode: forwards;
+  animation-duration: 6s;
+
+  animation-timing-function: ease;
+  animation-direction: normal;
+}
+@keyframes TextBox {
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+
+#ArrowText p {
+  transform: rotate(0deg);
+
+  animation-name: TextDraw;
+  animation-fill-mode: forwards;
+  animation-duration: 6s;
+
+  animation-timing-function: ease;
+  animation-direction: normal;
+}
+@keyframes TextDraw {
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.Arrow_Text1 {
+  width: fit-content;
+
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
-  @keyframes GearRotation{
-    0% {
-      transform: translate(30%, 30%) rotate(45deg);
-    }
-    50% {
-      transform: translate(30%, 30%)
-    }
-    100% {}
-  }
+  user-select: none;
+
+  
+}
+.Arrow_Text1:hover {
+  color: rgb(145, 145, 145);
+}
+.Arrow_Text1:hover::after {
+  width: 100%
+}
+.Arrow_Text1::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 3px;
+
+  background-color: rgb(0, 136, 255);
+
+  position: absolute;
+  left: 0;
+  bottom: -1;
+  
+  transition: 1.0s ;
+}
+.Arrow_Text2 {
+  user-select: none;
+}
