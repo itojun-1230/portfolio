@@ -1,12 +1,17 @@
 //component
-import { ArrowBox } from "@/component/Home/Arrow"
+import { LengthBox } from "@/component/Home/Length"
 import { Gear } from "@/component/Home/Gear"
+import { SelfIntroduction } from "@/component/Home/SelfIntro"
 
 export const HomePage = () => {
+
+    
+
     return (
         <>
-            <ArrowBox />
+            <LengthBox />
             <Gear />
+            <SelfIntroduction />
         </>
     )
 }
