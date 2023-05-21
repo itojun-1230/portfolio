@@ -1,0 +1,65 @@
+{
+  "FrontEnd": [
+    {
+      "name": "HTML・CSS",
+      "skill": 3,
+      "history": ["2021年春", "卒業制作"]
+    },
+    {
+      "name": "JavaScript",
+      "skill": 4,
+      "history": ["2021年春", "卒業制作"]
+    },
+    {
+      "name": "TypeScript",
+      "skill": 3,
+      "history": ["2022年末", "アルバイト"]
+    },
+    {
+      "name": "React",
+      "skill": 3,
+      "history": ["2022年末", "アルバイト"]
+    }
+  ],
+  "BackEnd": [
+    {
+      "name": "Node.js",
+      "skill": 2,
+      "history": ["2021年夏", "趣味"]
+    },
+    {
+      "name": "Next.js",
+      "skill": 1,
+      "history": ["2023年春", "趣味"]
+    }
+  ],
+  "Programming": [
+    {
+      "name": "Python",
+      "skill": 2,
+      "history": ["2022年夏", "大学の講義"]
+    }
+  ],
+  "DataBase": [
+    {
+      "name": "SQL",
+      "skill": 2,
+      "history": ["2023年春", "趣味"]
+    }
+  ],
+  "Other": [
+    "Github",
+    "VisualStudio Code",
+    "Replit"
+  ],
+  "Learning": [
+    "Paizaラーニング",
+    "サポーターズ"
+  ],
+  "Certification": [
+    {
+      "name": "ITパスポート試験",
+      "year": 2021
+    }
+  ]
+}

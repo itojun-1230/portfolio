@@ -20,8 +20,8 @@ export const LengthBox = () => {
           className={styles.Length_Text2}
           >&#9642;制作物</p>
           <p 
-          className={styles.Length_Text1} onClick={() => location.href = `${Root}/tech`}
-          >&#62;TECH</p>
+          className={styles.Length_Text1} onClick={() => location.href = `${Root}/skill`}
+          >&#62;SKILL</p>
           <p
           className={styles.Length_Text2}
           >&#9642;学んだ技術等</p>
