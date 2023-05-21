@@ -9,9 +9,9 @@ export const HomePage = () => {
 
     return (
         <>
+            <SelfIntroduction />
             <LengthBox />
             <Gear />
-            <SelfIntroduction />
         </>
     )
 }
