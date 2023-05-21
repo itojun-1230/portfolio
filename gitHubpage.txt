@@ -1,0 +1,3 @@
+/assets -> ./assets
+/ProjectImage -> ./ProjectImage
+index.html -> copy -> 404.html
