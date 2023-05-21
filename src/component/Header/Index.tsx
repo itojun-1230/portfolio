@@ -14,7 +14,7 @@ export const Header = () => {
       <Box id={styles.Header} >
         <HeaderButton icon={HomeIcon} path={""} ><p>Home</p></HeaderButton>
         <HeaderButton  icon={WorkIcon}path={"project"} ><p>Project</p></HeaderButton>
-        <HeaderButton  icon={HandymanIcon} path={"tech"}><p>Tech</p></HeaderButton>
+        <HeaderButton  icon={HandymanIcon} path={"skill"}><p>Skill</p></HeaderButton>
       </Box>
       <Box id={styles.Header_space} />
     </>

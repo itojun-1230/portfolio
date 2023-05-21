@@ -22,7 +22,7 @@
       "season": "University",
       "tag": ["TypeScript","HTML・CSS","React"],
       "description": [
-          "ポートフォリオ"
+          "自身のポートフォリオです"
         , "今後の制作物を掲載するときも楽なようにjsonから取得するようにしています"
         , "自由に使えるサーバを得たら、jsonからデータベースに移行します"
         , "PROJECTではタグで表示を切り替えられるようにし、閲覧者が見たいところだけを表示します"
@@ -38,7 +38,7 @@
       "season": "University",
       "tag": ["JavaScript","HTML・CSS"],
       "description": [
-          "大学の「Webデザイン入門」という講義で制作したホームページ"
+          "「Webデザイン入門」という講義の自由課題で制作したホームページ"
         , "実行ウィンドウでJavaScriptのコードを実行することができます"
         , "JavaScriptの基本構文を紹介しています"
       ],
