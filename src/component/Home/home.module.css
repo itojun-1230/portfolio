@@ -179,9 +179,9 @@
 
 @keyframes EnglishDraw {
   0% {
-    transform: rotateX(-90deg);
+    transform: rotateX(270deg);
   }
   100% {
-    transform: rotateX(360deg);
+    transform: rotateX(0deg);
   }
 }

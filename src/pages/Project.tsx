@@ -71,9 +71,9 @@ const TagProcess = (thisTag: string[], season: string, tag: ProjectTag) => {
         return true;
     } else if (tag.React && thisTag.includes("React")) {
         return true;
-    } else if (tag.React && thisTag.includes("SQL")) {
+    } else if (tag.SQL && thisTag.includes("SQL")) {
         return true;
-    } else if (tag.React && thisTag.includes("Python")) {
+    } else if (tag.Python && thisTag.includes("Python")) {
         return true;
     } else {
         return false;
